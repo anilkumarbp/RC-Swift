@@ -42,15 +42,6 @@ class ViewControllerLogin: UIViewController {
         sender.layer.addAnimation(anim, forKey: nil)
     }
     
-    @IBAction func setValues() {
-        keyBox.text = "MNJx4H4cTR-02_zPnsTJ5Q"
-        secretBox.text = "7CJKigzBTzOvzTDPP1-C3AARDYohOlSaCLcvgzpNZUzw"
-        userBox.text = "15856234190"
-        passBox.text = "sandman1!"
-        
-        // change credentials here
-    }
-//
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
